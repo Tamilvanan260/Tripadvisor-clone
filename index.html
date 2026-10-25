@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TripAdvisor</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+
+<body>
+    <div class="navbar">
+
+        <div class="navbar__s1">
+            <div class="logo"><img src="./image/logo.jpg" alt=""></div>
+            <h1 class="navbar__s1__title">Tripadvisor</h1>
+        </div>
+
+        <div class="navbar__search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="text" placeholder="Search">
+        </div>
+
+
+        <div class="navbar__s2">
+            <div class="plan-ai">
+                <p><img src="./image/msg.png" alt=""> Plan with AI </p>
+            </div>
+            <p>Discover</p>
+            <p>Review</p>
+            <p>More</p>
+        </div>
+
+        <div class="navbar__s3">
+            <div>
+                <i class="fa-solid fa-bars" style="color: rgb(0, 0, 0); font-size: 18px; cursor: pointer;"></i>
+            </div>
+            <div class="currency">
+                <i class="fa-solid fa-globe" style="color: rgb(0, 0, 0); font-size: 18px;"></i>
+                <p class="divider">|</p>
+                <p>INR</p>
+            </div>
+            <button class="signin-btn">Sign in</button>
+        </div>
+
+        <div class="sub-navbar">
+            <p>Things to Do</p>
+            <p>Hotels</p>
+            <p>Restaurants</p>
+            <p>Forums</p>
+        </div>
+
+    </div>
+
+
+    <div class="title">
+        <h1>Where to?</h1>
+    </div>
+
+    <div class="search-container">
+        <div class="search-input">
+            <i class="fa-solid fa-magnifying-glass" style="color: rgb(0, 0, 0);"></i>
+            <input type="text" placeholder="Place to go,thing to do,hotels..." class="search-container__input">
+        </div>
+        <div class="search-buttons">
+            <button class="ask-ai-btn">Ask AI</button>
+            <button class="search-btn">Search</button>
+        </div>
+    </div>
+
+    <div class="viewbar">
+        <div class="viewbar_img">
+            <img src="./image/trip.jpg" alt="">
+            <div class="line"></div>
+        </div>
+        <div class="viewbar_content">
+
+            <h1>Find things to do for everything you’re into</h1>
+            <p>Browse 400,000+ experiences and book with us.</p>
+            <button>Booking</button>
+        </div>
+
+    </div>
+
+    <div class="place-container">
+        <h2>Find things to do by interest</h2>
+        <p>Whatever you're into, we’ve got it</p>
+        <div class="place-img">
+            <div class="place-img-item"> <img src="./image/outdoors.jpg" alt="">
+                <h2>Outdoors</h2>
+            </div>
+            <div class="place-img-item"> <img src="./image/food.webp" alt="">
+                <h2>Food</h2>
+            </div>
+            <div class="place-img-item"> <img src="./image/culture.webp" alt="">
+                <h2>Culture</h2>
+            </div>
+            <div class="place-img-item"> <img src="./image/water.jpg" alt="">
+                <h2>Water</h2>
+            </div>
+        </div>
+    </div>
+
+    <!-- Goa Card -->
+    <div class="place-container">
+        <h2>Explore experiences near Goa</h2>
+        <p>Can’t-miss picks near you</p>
+
+        <!-- card 1 -->
+        <div class="place-img">
+
+            <!-- card 1 -->
+            <div class="exp-card">
+                <div class="place-img-item">
+                    <i class="fa-regular fa-heart" style="color: rgb(0, 0, 0);"></i>
+                    <img src="./image/goa1.jpg" alt="">
+                </div>
+                <div class="rating-info">
+                    <h2>North Goa Private Day Tour</h2>
+                    <div class="rating-stars">
+                        <span class="rating-num">4.9</span>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <span class="review-count">(9)</span>
+                    </div>
+                    <p class="price-text">from <strong>₹6,614</strong> per group</p>
+                </div>
+            </div>
+
+            <!-- card 2 -->
+            <div class="exp-card">
+                <div class="place-img-item">
+                    <i class="fa-regular fa-heart" style="color: rgb(0, 0, 0);"></i>
+                    <img src="./image/goa2.webp" alt="">
+                </div>
+                <div class="rating-info">
+                    <h2>Beach & Watersports Combo Tour</h2>
+                    <div class="rating-stars">
+                        <span class="rating-num">4.8</span>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <span class="review-count">(4)</span>
+                    </div>
+                    <p class="price-text">from <strong>₹17,507</strong> per adult</p>
+                </div>
+            </div>
+
+            <!-- card 3 -->
+            <div class="exp-card">
+                <div class="place-img-item">
+                    <i class="fa-regular fa-heart" style="color: rgb(0, 0, 0);"></i>
+                    <img src="./image/goa3.jpg" alt="">
+                </div>
+                <div class="rating-info">
+                    <h2>Dudhsagar Waterfalls&Island Safari</h2>
+                    <div class="rating-stars">
+                        <span class="rating-num">5.0</span>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <span class="review-count">(6)</span>
+                    </div>
+                    <p class="price-text">from <strong>₹9,239</strong> per adult</p>
+                </div>
+            </div>
+
+            <!-- card 4 -->
+            <div class="exp-card">
+                <div class="place-img-item">
+                    <i class="fa-regular fa-heart" style="color: rgb(0, 0, 0);"></i>
+                    <img src="./image/goa4.webp" alt="">
+                </div>
+                <div class="rating-info">
+                    <h2>Goa Full Day Guided Tour by Private </h2>
+                    <div class="rating-stars">
+                        <span class="rating-num">5.0</span>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <span class="review-count">(5)</span>
+                    </div>
+                    <p class="price-text">from <strong>₹7,504</strong> per adult</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- viewbar 2 -->
+    <div class="viewbar-2">
+        <div class="viewbar_img-2">
+            <img src="./image/viewbar.jpg" alt="">
+        </div>
+        <div class="viewbar_content-2">
+            <p><img src="./image/logo1.png" alt="">Tripadvisor Foundation</p>
+            <h1>Show some love to small businesses</h1>
+            <p>Donate to Kiva.org today to provide loans to local entrepreneurs and the Tripadvisor Foundation will
+                match it, up to $150,000 USD collectively. Terms apply. </p>
+            <button>Donate now</button>
+        </div>
+    </div>
+
+
+    <!-- memory bar -->
+    <div class="memory-container">
+        <h2>Inspiration to get you going</h2>
+        <div class="memory-img">
+            <div class="memory-img-item">
+                <div class="img-box">
+                    <i class="fa-regular fa-heart" style="color: rgb(0, 0, 0);"></i>
+                    <img src="./image/memory1.webp" alt="">
+                </div>
+                <p>15 U.S. fall-foliage trips—no car required</p>
+            </div>
+
+            <div class="memory-img-item">
+                <div class="img-box">
+                    <i class="fa-regular fa-heart" style="color: rgb(0, 0, 0);"></i>
+                    <img src="./image/memory2.webp" alt="">
+                </div>
+                <p>5 set-jetting adventures kids will love</p>
+            </div>
+
+            <div class="memory-img-item">
+                <div class="img-box">
+                    <i class="fa-regular fa-heart" style="color: rgb(0, 0, 0);"></i>
+                    <img src="./image/memory3.jpg" alt="">
+                </div>
+                <p>The most magical towns in the Pacific Northwest</p>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Hotel card -->
+    <div class="place-container">
+        <h2>Spot something supernatural</h2>
+        <p>Give yourself the chills on a ghost tour</p>
+
+        <!-- card 1 -->
+        <div class="place-img">
+
+            <!-- card 1 -->
+            <div class="exp-card">
+                <div class="place-img-item">
+                    <i class="fa-regular fa-heart" style="color: rgb(0, 0, 0);"></i>
+                    <img src="./image/h1.jpg" alt="">
+                </div>
+                <div class="rating-info">
+                    <h2>Kyoto Ghost Tour: Dark Tales,Urban Legends</h2>
+                    <div class="rating-stars">
+                        <span class="rating-num">4.8</span>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <span class="review-count">(1,921)</span>
+                    </div>
+                    <p class="price-text">from <strong>₹8,614</strong> per adult</p>
+                </div>
+            </div>
+
+            <!-- card 2 -->
+            <div class="exp-card">
+                <div class="place-img-item">
+                    <i class="fa-regular fa-heart" style="color: rgb(0, 0, 0);"></i>
+                    <img src="./image/h2.jpg" alt="">
+                </div>
+                <div class="rating-info">
+                    <h2>Adults-Only New Orleans Ghost Evening Walking Tour</h2>
+                    <div class="rating-stars">
+                        <span class="rating-num">4.8</span>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <span class="review-count">(1,564)</span>
+                    </div>
+                    <p class="price-text">from <strong>₹25,507</strong> per adult</p>
+                </div>
+            </div>
+
+            <!-- card 3 -->
+            <div class="exp-card">
+                <div class="place-img-item">
+                    <i class="fa-regular fa-heart" style="color: rgb(0, 0, 0);"></i>
+                    <img src="./image/h3.jpg" alt="">
+                </div>
+                <div class="rating-info">
+                    <h2>Munich Ghosts and Spirits,Crime, Voodoo, and Vampire Tour
+</h2>
+                    <div class="rating-stars">
+                        <span class="rating-num">5.0</span>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <span class="review-count">(1,293)</span>
+                    </div>
+                    <p class="price-text">from <strong>₹9,239</strong> per adult</p>
+                </div>
+            </div>
+
+            <!-- card 4 -->
+            <div class="exp-card">
+                <div class="place-img-item">
+                    <i class="fa-regular fa-heart" style="color: rgb(0, 0, 0);"></i>
+                    <img src="./image/h4.jpg" alt="">
+                </div>
+                <div class="rating-info">
+                    <h2>Toronto Ghost Tour: The Original Haunted Walk </h2>
+                    <div class="rating-stars">
+                        <span class="rating-num">4.9</span>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <span class="review-count">(3,445)</span>
+                    </div>
+                    <p class="price-text">from <strong>₹17,504</strong> per adult</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- place card 2 -->
+    <div class="place-container">
+        <h2>Find things to do by interest</h2>
+        <p>Whatever you're into, we’ve got it</p>
+        <div class="place-img">
+            <div class="place-img-item"> <img src="./image/ooty.jpg" alt="">
+                <h2>Ooty (Udhagamandalam), India</h2>
+            </div>
+            <div class="place-img-item"> <img src="./image/madhura.jpg" alt="">
+                <h2>Madurai, India</h2>
+            </div>
+            <div class="place-img-item"> <img src="./image/bag.jpg" alt="">
+                <h2>Bengaluru, India</h2>
+            </div>
+            <div class="place-img-item"> <img src="./image/maha.jpg" alt="">
+                <h2>Mahabalipuram, India</h2>
+            </div>
+        </div>
+    </div>
+
+    <!-- place card 3 -->
+    <div class="place-container">
+        <h2>Find things to do by interest</h2>
+        <p>Whatever you're into, we’ve got it</p>
+        <div class="place-img">
+            <div class="place-img-item"> <img src="./image/rom.jpg" alt="">
+                <h2>Rome, Italy</h2>
+            </div>
+            <div class="place-img-item"> <img src="./image/fran.jpg" alt="">
+                <h2>Paris, France</h2>
+            </div>
+            <div class="place-img-item"> <img src="./image/las.jpg" alt="">
+                <h2>Las Vegas, NV</h2>
+            </div>
+            <div class="place-img-item"> <img src="./image/lon.jpg" alt="">
+                <h2>London, UK</h2>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+
+
+    <div class="footer-container">
+        <div class="footer-one">
+
+            <div class="footer__s1">
+                <h4>About Tripadvisor</h4>
+                <p>About Us</p>
+                <p>Press</p>
+                <p>Resources and Policies</p>
+                <p>Careers</p>
+                <p>Trust & Safety</p>
+                <p>Contact us</p>
+                <p>Tripadvisor Technology Blog</p>
+            </div>
+
+            <div class="footer__s1">
+                <h4>Things to Do</h4>
+                <p>Things to Do</p>
+                <p>Hotels</p>
+                <p>Restaurants</p>
+                <p>Cruises</p>
+                <p>Write a review</p>
+                <p>Add a Place</p>
+                <p>Join</p>
+                <p>Travellers' Choice</p>
+                <p>Help Centre</p>
+                <p>Travel Stories</p>
+            </div>
+
+            <div class="footer__s1">
+                <h4>Do Business With Us</h4>
+                <p>Business Advantage</p>
+                <p>Owners & DMO/CVB</p>
+                <p>Sponsored Placements</p>
+                <p>Advertise with Us</p>
+                <p>Access our Content API</p>
+                <div class="footer__s3">
+                    <h4>Get The App</h4>
+                    <p>iPhone App</p>
+                    <p>Android App</p>
+                </div>
+            </div>
+            <div class="footer__s4">
+                <h4>Tripadvisor Sites</h4>
+                <p>Book tours and attraction tickets on <span class="viator">Viator</span></p>
+            </div>
+        </div>
+
+    <!-- footer two -->
+
+
+        <div class="footer-two">
+            <div class="footer-two-left">
+                <div class="logo-row">
+                    <div class="logo3">
+                        <img src="./image/logo1.png" alt="Logo">
+                    </div>
+                    <div class="footer-legal">
+                        <div class="footer-title">
+                            <p>&copy; 2026 Tripadvisor LLC All rights reserved.</p>
+                        </div>
+                        <!-- Links Row -->
+                        <div class="footer-flow">
+                            <p>Terms of Use</p>
+                            <p>Privacy and Cookies Statement</p>
+                            <p>Cookie consent</p>
+                            <p>How the site works</p>
+                            <p>Contact us</p>
+                            <p>Accessibility Statement</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Paragraph -->
+                <div class="para">
+                    <p>This is the version of our website addressed to speakers of English in India. If you are a
+                        resident of another country or region, please select the appropriate version of Tripadvisor for
+                        your country or region in the drop-down menu....</p>
+                    <h4>Read more <i class="fa-solid fa-chevron-down"></i></h4>
+                </div>
+            </div>
+
+            <div class="footer-two-right">
+                <div class="footer-selects">
+                    <button class="select-btn"><span>&#8377; INR</span> <i class="fa-solid fa-chevron-down"></i></button>
+                    <button class="select-btn"><span>India</span> <i class="fa-solid fa-chevron-down"></i></button>
+                </div>
+                <div class="social-icons">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-x-twitter"></i>
+                    <i class="fa-brands fa-pinterest"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                    <i class="fa-brands fa-tiktok"></i>
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+
+</body>
+
+</html>
